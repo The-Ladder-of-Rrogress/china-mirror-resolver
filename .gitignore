@@ -1,0 +1,20 @@
+# Patterns to ignore
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test output
+*.csv
+*.log
+test_*.ps1
+test_*.sh
