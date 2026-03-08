@@ -30,6 +30,18 @@ pip, npm, yarn, pnpm, conda, Docker, Go, Rust (cargo/rustup), Maven, Gradle, Hom
 
 ### Installation
 
+**Method 1 — One-click install via URL (Recommended)**
+
+Simply paste this repository URL into your AI agent's chat:
+
+```
+https://github.com/The-Ladder-of-Rrogress/china-mirror-resolver
+```
+
+Agents that support skill installation from URLs (e.g. Claude Code, StepFun) will automatically download and activate the skill.
+
+**Method 2 — Manual install**
+
 Copy the `china-mirror-resolver/` folder to your agent's skill directory:
 
 | Agent | Skill Directory |
@@ -93,6 +105,18 @@ MIT — see [LICENSE](LICENSE)
 pip、npm、yarn、pnpm、conda、Docker、Go、Rust、Maven、Gradle、Homebrew、apt、yum/dnf、GitHub 加速、Hugging Face
 
 ### 安装
+
+**方式一 — 一键安装（推荐）**
+
+将本仓库 URL 直接发送给你的 AI Agent 即可自动安装：
+
+```
+https://github.com/The-Ladder-of-Rrogress/china-mirror-resolver
+```
+
+支持 URL 安装技能的 Agent（如 Claude Code、小跃）会自动下载并激活。
+
+**方式二 — 手动安装**
 
 将 `china-mirror-resolver/` 文件夹复制到 Agent 的技能目录即可。
 
