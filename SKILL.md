@@ -246,7 +246,7 @@ Extracted URLs must:
 ```bash
 # Linux / macOS
 start=$(date +%s%N 2>/dev/null || perl -MTime::HiRes=time -e 'printf "%d\n",time()*1e9')
-code=$(curl -o /dev/null -s -w "%{http_code}" --max-time 10 "<URL>")
+code=$(curl -L -o /dev/null -s -w "%{http_code}" --max-time 10 "<URL>")
 end=$(date +%s%N 2>/dev/null || perl -MTime::HiRes=time -e 'printf "%d\n",time()*1e9')
 echo "HTTP $code | $(( (end - start) / 1000000 ))ms"
 ```

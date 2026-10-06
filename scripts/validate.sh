@@ -47,7 +47,7 @@ check_url() {
     local code elapsed start end
 
     start=$(_now_ms)
-    code=$(curl -o /dev/null -s -w "%{http_code}" --max-time 10 "$url" 2>/dev/null || echo "000")
+    code=$(curl -L -o /dev/null -s -w "%{http_code}" --max-time 10 "$url" 2>/dev/null || echo "000")
     end=$(_now_ms)
     elapsed=$(( end - start ))
 
